@@ -10,25 +10,88 @@ O dataset "Brazilian E-Commerce Public Dataset by Olist" possui várias tabelas,
 - olist_order_items_dataset: Itens(Seria a venda específica para cada cliente)
 - olist_order_payments_dataset: Pagamentos
 
+# Dados de cada tabela
+1. Pedidos:
+   - ID_Pedido
+   - ID_Transacao_Cliente
+   - Status
+   - Data_Compra
+   - Data_Aprovacao
+   - Data_Entrega_Cliente
+   - Data_Entrega_Transportadora
+   - Data_Estimada_Entrega
+   Medidas:
+   - % Entrega no Prazo
+   - Dias de Entrega
+   - Dias Deslocamento(Transportadora)
+   - Dias Processamento
+   - Pedido com Atraso
+   - Pedidos no Prazo
+   - Peso de Frete (%)
+2. Produtos
+   - ID_Produto
+   - Categoria
+3. Clientes
+   - ID_Unico_Cliente
+   - ID_Transacao_Cliente
+   - Estado_Cliente
+4. Vendedores
+   - ID do Vendedor
+   - UF do Vendedor
+5. Pagamentos
+   - ID_Pedido
+   - Tipo_Pagamento
+   Medida criada:
+   - Total Pago
+  Coluna criada:
+   - Valor_Pagamento
+6. Itens
+   - ID_Pedido
+   - ID_Produto
+   - ID do Vendedor
+   Colunas criadas:
+   - Preço
+   - Valor_Frete
+   - Valor_Total_Item
+   Medidas criadas:
+   - Ticket Médio
+   - Faturamento Total
+7. Filtro_regiao(Permite o agrupamento dos estados por região).
+   - Região
+   - UF
+8. Calendário(Essa tabela foi criada)
+   - Mes_Nome
+   Colunas criadas:
+   - Data
+   - Ano
+  
+
 
 # Investigações
-1. Análise de Performance de Vendas
-- Qual o volume total de dinheiro que passou pela plataforma?
-- O ticket médio (a média do custo de cada pedido) aumenta ou diminui de acordo com o ano, mês e região? 
-- A empresa está estagnada, crescendo ou caindo? (Análise do faturamento mensal)
-- Qual é a preferência do cliente quanto à forma de pagamento? (Algumas formas de pagamento afetam no atraso pela demora na confirmação de pagamento)
-- O lucro concentra-se em quais categorias? 
-- Quais estados estão lucrando mais?
-
-2. Análise Logística
-- KPIs(indicadores-chave de desempenho) representando a quantidade de dias para as entregas, porcentagem de pedidos atrasados, peso do frete no valor do pedido. Após a data de entrega estimada, a empresa demora ou entrega mais rápido o produto?
-- Quais estados possuem mais atraso e devem ser investigados?
-- Relação de dias para entrega entre Estado do vendedor e do comprador
-- Os atrasados ocorrem por falhas na transportadora ou pelo vendedor que demora para enviar o pedido até o ponto de coleta?
-- Qual a relação entre frete e prazo? Os fretes mais caros estão cumprindo com a promessa de entregarem mais rápido?
+1. Qual é a quantia de receita que está passando pela empresa? A empresa está crescendo, estagnando ou decaindo? (Janeiro e dezembro)
+2. Quais categorias estão gerando mais receita? Essas categorias possuem um ticket médio alto?
+3. Quais formas de pagamento estão sendo mais utilizadas pelos clientes e por que?
+4. Quais estados lucram mais pra empresa?
+5. Quantos dias o cliente espera pelo produto? O dia da entrega está passando do prazo? Mesmo após o prazo, a empresa está conseguindo entregar mais rápido?
+6. Quais estados possuem mais atraso de entrega? Os culpados são a transportadora que demora para enviar ou o vendedor?
+7. Os fretes mais caros estão entregando mais rapidamente conforme essa promessa?
 
 # Visão Geral dos Dashboards
+Dashboard de análise das vendas:
+- KPIs(indicador chave de desempenho) de faturamento total(total de renda que passou pela empresa) e ticket médio(valor médio de cada pedido).
+- Gráfico de Área: Evolução mensal do faturamento de 2016 até 2018.
+- Gráfico de Rosca: Formas de pagamento mais utilizadas.
+- Gráfico de barras empilhadas: Categorias que geram mais receita e Faturamento total por Estado.
+- Filtro para os anos 2016, 2017 e 2018.
+Dashboard de análise logística:
+- KPIs mostrando o total de dias que demora para a entrega, porcentagem de pedidos atrasados, peso do frete no valor do pedido em porcentagem e valor em porcentagem da entrega dentro do prazo.
+- Cartões para filtro de mês e região.
+- Gráfico de barras indicando os estados que possuem mais atraso
+- Matriz indicando a relação entre Estado do Vendedor e Estado do Comprador.
+- Gráfico de barras mostrando os responsáveis pelos atrasados (Vendedor ou Transportadora)
+- Gráfico de Dispersão relacionando valor do frete e quantidade de dias até a entrega.
 # Principais Insights
+1. 
 # Conclusão
 # Conecte-se comigo
 Fique à vontade para se conectar comigo no LinkedIn: 
