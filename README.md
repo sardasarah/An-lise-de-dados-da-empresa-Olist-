@@ -10,7 +10,7 @@ O dataset "Brazilian E-Commerce Public Dataset by Olist" possui várias tabelas,
 - olist_order_items_dataset: Itens(Seria a venda específica para cada cliente)
 - olist_order_payments_dataset: Pagamentos
 
-# Dados das tabelas
+# Tabelas
 1. Pedidos:
    - ID_Pedido
    - ID_Transacao_Cliente
@@ -100,8 +100,20 @@ Dashboard de análise logística:
 7. Entre os culpados pelos atrasos, destaca-se a transportadora; contudo, muitas vezes é o vendedor quem demora para despachar o produto.
 8. Produtos da categoria de Beleza são os mais vendidos, porém possuem um dos menores tickets médios, exigindo um volume maior de vendas. Entretanto, a categoria de Relógios possui menos vendas, mas seu ticket médio é alto, sendo interessante para a empresa investir nessa categoria para aumentar o faturamento.
 # Conclusão
+Os dashboards da Olist oferecem uma visão abrangente da performance de vendas e da logística da empresa. Ao utilizar o Power BI e o DAX, os dashboards fornecem informações valiosas, incluindo:
+
+Relação entre o ticket médio e os produtos.
+Evolução da empresa mensalmente e por região.
+Formas de pagamento mais usadas pelos clientes. 
+Categorias de produtos, que geram mais receita dentro da empresa.
+Em quais estados a Olist é mais explorada.
+Como a empresa está em relação a demora para entregar o produto, os atrasos e peso do frete no valor do pedido.
+Principais culpados pelos atrasos.
+Estados com mais atrasos.
+A promessa dos fretes.
+
 # Conecte-se comigo
-Fique à vontade para se conectar comigo no LinkedIn: 
+Fique à vontade para se conectar comigo no LinkedIn: [Sarah Costa](www.linkedin.com/in/sarah-costa-a84425290)
 Você também pode entrar em contato comigo por e-mail: sarah.costaepereira@gmail.com
 
 
