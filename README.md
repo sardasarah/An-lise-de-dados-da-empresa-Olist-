@@ -113,7 +113,7 @@ Estados com mais atrasos.
 A promessa dos fretes.
 
 # Conecte-se comigo
-Fique à vontade para se conectar comigo no LinkedIn: [Sarah Costa](www.linkedin.com/in/sarah-costa-a84425290)
+Fique à vontade para se conectar comigo no LinkedIn: [Sarah Costa](www.linkedin.com/in/sarah-costa-a84425290).]
 Você também pode entrar em contato comigo por e-mail: sarah.costaepereira@gmail.com
 
 
