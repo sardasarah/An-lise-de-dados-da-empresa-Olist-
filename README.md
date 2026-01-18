@@ -10,7 +10,7 @@ O dataset "Brazilian E-Commerce Public Dataset by Olist" possui várias tabelas,
 - olist_order_items_dataset: Itens(Seria a venda específica para cada cliente)
 - olist_order_payments_dataset: Pagamentos
 
-# Dados de cada tabela
+# Dados das tabelas
 1. Pedidos:
    - ID_Pedido
    - ID_Transacao_Cliente
@@ -91,7 +91,14 @@ Dashboard de análise logística:
 - Gráfico de barras mostrando os responsáveis pelos atrasados (Vendedor ou Transportadora)
 - Gráfico de Dispersão relacionando valor do frete e quantidade de dias até a entrega.
 # Principais Insights
-1. 
+1. O faturamento mensal da empresa depende de eventos como a Black Friday, uma vez que há um grande pico de receita em novembro. Em contrapartida, janeiro apresenta o menor faturamento registrado, baseando-se no ano de 2017. Na logística, os atrasos são altos em novembro, o que mostra que a empresa não está conseguindo lidar com o volume de pedidos nessa época do ano.
+2. Há pouca participação no faturamento total por estados das regiões Nordeste e Norte entre as dez regiões com maior faturamento. Isso mostra que a Olist ainda não conquistou essas regiões em razão da logística da transportadora, já que esta é, a princípio, a culpada pelos atrasos — sendo a região Nordeste a que possui os maiores índices de demora.
+3. Cartão de crédito e boleto são as opções mais utilizadas pelos clientes, o que é melhor para a empresa, já que a confirmação do pagamento com essas formas é mais rápida e contribui para diminuir os atrasos.
+4. As regiões Norte e Nordeste possuem as maiores quantidades de dias para entrega e, mesmo após a data estimada, ficam atrás de outros estados no cumprimento do prazo de entrega.
+5. A logística da Olist é imprevisível para as regiões Norte e Nordeste, pois, ainda que os fretes possam ser mais caros, o pedido pode demorar muitos dias para chegar. Em média, os fretes mais baratos continuam apresentando demora na entrega.
+6. A região Sudeste é a que menos demora para receber seus pedidos, principalmente São Paulo, mesmo quando o vendedor é de uma região distante.
+7. Entre os culpados pelos atrasos, destaca-se a transportadora; contudo, muitas vezes é o vendedor quem demora para despachar o produto.
+8. Produtos da categoria de Beleza são os mais vendidos, porém possuem um dos menores tickets médios, exigindo um volume maior de vendas. Entretanto, a categoria de Relógios possui menos vendas, mas seu ticket médio é alto, sendo interessante para a empresa investir nessa categoria para aumentar o faturamento.
 # Conclusão
 # Conecte-se comigo
 Fique à vontade para se conectar comigo no LinkedIn: 
